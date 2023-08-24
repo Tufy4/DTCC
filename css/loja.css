@@ -1,0 +1,415 @@
+/*header*/
+.header{
+    background-color: rgb(20, 20, 20);
+    height: 150px;
+   
+  }
+  
+  
+    .logo{
+      width: 500px;
+      margin-top: 11%;
+      
+  }
+  
+  .col-4.nome{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(255, 244, 244);
+  font-size: 60pt;
+  left: 7%;
+  margin-top: 1%;
+  }
+  
+  
+  img.p{
+    margin-left: 0%;
+    padding: 0px 80px 15px 20px;
+    margin-top: 12%;
+  }
+  
+  
+  
+  
+  .pesquisar{
+    margin-top: -2%;
+  }
+  
+  
+  .menu{
+    background-color: rgb(0, 0, 0);
+   
+  }
+  
+  
+/*fim header*/
+
+  
+
+/*Body*/
+body {
+  font-family: Arial, sans-serif;
+  }
+  
+  .card {
+  border: none;
+    }
+  
+  .filters {
+    padding-top: 20px;
+  border-right: 1px solid #ddd;
+  background-color: #ddd;
+  padding-left: 50px;
+  }
+  
+  ul {
+  list-style-type: none;
+  padding-left: 0;
+  }
+  
+  #product-list .product {
+  border: 1px solid #ddd ;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  }
+  
+  .price {
+  font-weight: bold;
+  color: green;
+  }
+
+.featurette-divider{color: aliceblue;}
+  .cardt{
+    margin-left: 60px;
+
+   padding-left: 80px;
+   padding-top: 50px;
+   margin-bottom: 50px;
+  }
+  
+  .card-text.preco{
+    text-align: center;
+    color: green;
+    font-size: 25px;
+  }
+
+.card-title.texto{
+  font-size: 25px ;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+  .btn.compra{
+margin-top: 10px;
+width: 160px;
+  }
+
+  .col-2.drop{
+  margin-top: 20px;
+  padding-bottom: 10px;
+  }
+
+  
+
+.comentario{
+  margin-top: 40px  ;
+}
+
+
+/* CARD DE IMAGENS*/
+.container.aa{
+  position: relative;
+  padding: 15px;
+  margin-top: 30px;
+  max-width:1100px;
+  align-items: center;
+}
+
+.gallery-wrapper {
+  overflow-x: auto;
+}
+
+.arrow-left,
+.arrow-right {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: auto;
+  bottom: 0;
+  font-size: 20px;
+  line-height: 250px;
+  width: 40px;
+  color: #fff;
+  transition: all 600ms ease-in-out;
+  background: linear-gradient(to left, transparent 0%, black 200%);
+  opacity: 0.1;
+  cursor: pointer;
+  border: none;
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+  opacity: 1;
+}
+
+.arrow-right {
+  right: 0;
+  left: auto;
+  text-align: right;
+  background: linear-gradient(to right, transparent 0%, black 200%);
+}
+
+.gallery {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 30px;
+}
+
+.item {
+  width: 250px;
+  height: 250px;
+  flex-shrink: 0;
+  transition: all 600ms ease-in-out;
+  opacity: 0.5;
+}
+
+.current-item {
+  opacity: 1;
+}
+
+.gallery-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+
+.gallery-wrapper {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+.card.galeria{
+  text-align: center;
+}
+
+.preco{
+  color: green;
+  text-align: center;
+}
+
+
+
+
+/*fim body*/
+
+
+  
+  /*footer*/
+  
+  .rodape{
+      background-color: rgb(0, 0, 0);
+      height: 200px;
+    width: 101%;
+      position: bottom;
+  }
+  
+  .col-2.v{
+  font-size: 120%;
+  color: white;
+  font-weight: 600;
+  }
+  
+  .col-2.b{
+  
+  color:rgb(110, 110, 110);
+  }
+  img.v{
+  padding: 3px 5px 0px 5px;
+  width: 35px;
+  }
+  .dropdown-divider.c{
+     color: red;
+  }
+  
+  body{
+    overflow-x: hidden;
+  }
+  .divider{background-color: #ddd;}
+
+
+  
+
+
+@media only screen and (max-width: 1600px){
+  /*header*/
+.header{
+  background-color: rgb(20, 20, 20);
+  height: 150px;
+ 
+}
+
+
+  .logo{
+    width: 500px;
+    margin-top: 11%;
+    
+}
+
+.col-4.nome{
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: rgb(255, 244, 244);
+font-size: 60pt;
+left: 7%;
+margin-top: 1%;
+}
+
+
+img.p{
+  margin-left: 0%;
+  padding: 0px 80px 15px 20px;
+  margin-top: 12%;
+}
+
+
+
+
+.pesquisar{
+  margin-top: -2%;
+}
+
+
+.menu{
+  background-color: rgb(0, 0, 0);
+ 
+}
+
+
+/*fim header*/
+
+
+
+/*Body*/
+body {
+font-family: Arial, sans-serif;
+}
+
+.card {
+border: none;
+  }
+
+.filters {
+  padding-top: 20px;
+border-right: 1px solid #ddd;
+background-color: #ddd;
+padding-left: 50px;
+}
+
+ul {
+list-style-type: none;
+padding-left: 0;
+}
+
+#product-list .product {
+border: 1px solid #ddd ;
+padding: 10px;
+text-align: center;
+margin-bottom: 20px;
+}
+
+.price {
+font-weight: bold;
+color: green;
+}
+
+
+
+
+
+.cardt{
+  margin-left: 30px;
+margin-right: -70px;
+ padding-left: -20px;
+ padding-top: 50px;
+ margin-bottom: 50px;
+}
+
+.card-text.preco{
+  text-align: center;
+  color: green;
+  font-size: 25px;
+}
+
+.card-title.texto{
+font-size: 25px ;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(0, 0, 0);
+text-align: center;
+}
+
+.comentario{
+  margin-top: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-bottom: solid rgb(75, 3, 3) 1px;
+}
+
+/*fim body*/
+
+
+
+/*footer*/
+
+.rodape{
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+  width: 101%;
+    position: bottom;
+}
+
+.col-2.v{
+font-size: 120%;
+color: white;
+font-weight: 600;
+}
+
+.col-2.b{
+
+color:rgb(110, 110, 110);
+}
+img.v{
+padding: 3px 5px 0px 5px;
+width: 35px;
+}
+.dropdown-divider.c{
+   color: red;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

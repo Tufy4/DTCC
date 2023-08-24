@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/cadastro.css" media="screen">
-    <link rel="stylesheet" href="php/cadastro.php">
+    <link rel="stylesheet"  href="php/login.php" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/login.css" media="screen">
+
+        
+        
         
 </head>
 <body>
@@ -22,7 +25,7 @@
         <div class="row justify-content-center">
     
             <div class="col-2 align-self-start">
-              <img  class="logo"src="imagens/logo.png" alt=""> 
+              <a href="index.html"><img  class="logo"src="imagens/logo.png" alt=""> </a> 
               </div>
     
             <div class="col-4 nome"> 
@@ -62,8 +65,8 @@
         <div class="row justify-content-center">
             <div class="col-6 bg-danger rounded-top">
                 <div class="row justify-content-center">
-            <div class="col btn btn-danger">Cadastro</div>
-            <div class="col btn btn-danger">login</div>
+                  <a href="registro.html"> <div class="col btn btn-danger">Registre-se</div></a>
+                  <a href="login.html"><div class="col btn btn-danger">Login</div></a>
         </div>
     </div>
     </div>
@@ -74,25 +77,14 @@
         <div class="row justify-content-center">
           
         <div class="col-6 border border-danger">
-        <form class="px-4 py-3">
+        <form  action="login.php" method="POST"   class="px-4 py-3">
           <div class="form-group">
-            <label for="exampleDropdownFormEmail1">Nome Completo</label>
-            <input type="email" class="form-control" id="nome" placeholder="Nome Completo">
+            <label for="exampleDropdownFormEmail1">Endereço de email</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="email@exemplo.com">
           </div>
-          <form>
-            <div class="row">
-              <div class="col">
-                <input type="text" class="form-control" placeholder="Nome">
-              </div>
-              <div class="col">
-                <input type="text" class="form-control" placeholder="Sobrenome">
-              </div>
-            </div>
-          </form>
-          
           <div class="form-group">
             <label for="exampleDropdownFormPassword1">Senha</label>
-            <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Senha">
+            <input type="password" class="form-control" id="senha" name="senha" placeholder="Senha">
           </div>
           <div class="form-check">
             <input type="checkbox" class="form-check-input" id="dropdownCheck">
@@ -102,7 +94,7 @@
           <button type="submit" class="btn btn-primary">Entrar</button>
         </form>
         <div class="dropdown-divider"></div>
-        <a class="register" href="#">Novo, por aqui? Regitre-se.</a> 
+        <a class="register" href="registro.html">Novo, por aqui? Regitre-se.</a> 
         <a class="remenber" href="#">Esqueceu a senha?</a>
     </div>
 </div>
