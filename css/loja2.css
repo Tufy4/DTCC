@@ -1,44 +1,77 @@
 /*header*/
-.header{
-    background-color: rgb(20, 20, 20);
-    height: 150px;
-   
-  }
-  
-  
-    .logo{
-      width: 500px;
-      margin-top: 11%;
-      
-  }
-  
-  .col-4.nome{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: rgb(255, 244, 244);
-  font-size: 60pt;
-  left: 7%;
-  margin-top: 1%;
-  }
-  
-  
-  img.p{
-    margin-left: 0%;
-    padding: 0px 80px 15px 20px;
-    margin-top: 12%;
-  }
-  
-  
-  
-  
-  .pesquisar{
-    margin-top: -2%;
-  }
-  
-  
-  .menu{
-    background-color: rgb(0, 0, 0);
-   
-  }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+ .row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ }
+
+     .header{
+      background-color: rgb(20, 20, 20);
+    padding-bottom: 30px;
+      min-height: auto;
+     
+    }
+    
+    
+      .logo{
+        width: 500px;
+        margin-top: 6%;
+        
+    }
+    
+    .col-4.nome{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 244, 244);
+    font-size: 60pt;
+    left: 7%;
+    margin-top: 1%;
+    }
+    
+    
+    img.p1{
+      margin-left: 0%;
+      padding: 0px 80px 15px 20px;
+      margin-top: 12%;
+    }
+    .nav-item{
+      font-weight: 700;
+      color: white;
+    }
+    .nav-item:hover{
+      background-color: rgb(185, 1, 1);
+      font-weight: 700;
+      color: white;
+    }
+    .nav-item:active{
+      background-color: red;
+      font-weight: 700;
+      color: white;
+    }
+    
+    
+    
+    .pesquisar{
+      margin-bottom: -1%;
+      border-radius: 100px;
+    }
+
+#link{
+  text-decoration: none;
+  color: inherit;
+}
+    
+    
+    .menu{
+      background-color: rgb(0, 0, 0);
+     
+    }
   
   
 /*fim header*/
@@ -49,7 +82,8 @@
 body {
   font-family: Arial, sans-serif;
   }
-  
+
+
   .card {
   border: none;
     }
@@ -118,29 +152,33 @@ width: 160px;
   /*footer*/
   
   .rodape{
-      background-color: rgb(0, 0, 0);
-      height: 200px;
-    width: 101%;
-      position: bottom;
-  }
-  
-  .col-2.v{
-  font-size: 120%;
-  color: white;
-  font-weight: 600;
-  }
-  
-  .col-2.b{
-  
-  color:rgb(110, 110, 110);
-  }
-  img.v{
-  padding: 3px 5px 0px 5px;
-  width: 35px;
-  }
-  .dropdown-divider.c{
-     color: red;
-  }
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+  width: 101%;
+    position: bottom;
+}
+
+.col-2.v{
+font-size: 120%;
+color: white;
+font-weight: 600;
+}
+
+.col-2.b{
+text-decoration:double;
+color:rgb(110, 110, 110);
+}
+img.v{
+padding: 3px 5px 0px 5px;
+width: 35px;
+}
+.dropdown-divider.c{
+   color: red;
+}
+#link{
+    text-decoration: none;
+    color: inherit;
+}
   
   body{
     overflow-x: hidden;

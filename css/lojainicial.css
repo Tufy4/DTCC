@@ -1,0 +1,752 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+  
+body{
+  overflow-x: hidden;
+  max-width: 1900px;
+  background-color: #ffffff;
+}
+
+ .row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ }
+
+     .header{
+      background-color: rgb(20, 20, 20);
+    padding-bottom: 30px;
+      min-height: auto;
+     
+    }
+    
+    
+      .logo{
+        width: 500px;
+        margin-top: 6%;
+        
+    }
+    
+    .col-4.nome{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 244, 244);
+    font-size: 60pt;
+    left: 7%;
+    margin-top: 1%;
+    }
+    
+    
+    img.p1{
+      margin-left: 0%;
+      padding: 0px 80px 15px 20px;
+      margin-top: 12%;
+    }
+
+    
+    .nav-item.dropdown{
+      font-weight: 700;
+      color: white;
+    }
+    .nav-item.dropdown:hover{
+      background-color: rgb(185, 1, 1);
+      font-weight: 700;
+      color: rgb(255, 244, 244);
+    }
+    .nav-item.dropdown:active{
+      background-color: red;
+      font-weight: 700;
+      color: white;
+    }
+
+    .nav-item{
+      font-weight: 700;
+      color: white;
+    }
+    .nav-item:hover{
+      background-color: rgb(185, 1, 1);
+      font-weight: 700;
+      color: rgb(255, 244, 244);
+    }
+    .nav-item:active{
+      background-color: red;
+      font-weight: 700;
+      color: white;
+    }
+    
+    
+    
+    .pesquisar{
+      margin-bottom: -1%;
+      border-radius: 100px;
+    }
+
+    .dropdown-item{
+      text-decoration: none;
+      color: inherit;
+    }
+    .dropdown-item:hover{
+      text-decoration: none;
+      color: inherit;
+    }
+    .dropdown-item:active{
+      text-decoration: none;
+      color: inherit;
+    }
+
+    
+    .nav-link{
+  text-decoration: none;
+  color: inherit;
+}
+.nav-link:hover{
+  text-decoration: none;
+  color: inherit;
+}
+.nav-link:active{
+  text-decoration: none;
+  color: inherit;
+}
+    
+    
+    .menu{
+      background-color: rgb(0, 0, 0);
+     
+    }
+    .espaço{
+      height: 30px;
+    }
+  
+  .row.header{
+    margin-left: -170px;
+  }
+
+  
+  
+/*fim header*/
+
+  
+
+/*Body*/
+
+ 
+
+
+
+
+  .container.gallery {
+    position: relative;
+    padding: 15px;
+    max-width: 1100px;
+    margin: 0 auto;
+    z-index: 0;
+  }
+  
+  .gallery-wrapper {
+    overflow-x: auto;
+    
+  }
+  
+  .arrow-left,
+  .arrow-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 40px;
+    color: #fff;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.1;
+    cursor: pointer;
+    border: none;
+    z-index: 1;
+  }
+  
+  .arrow-left:hover,
+  .arrow-right:hover {
+    opacity: 1;
+  }
+  
+  .arrow-right {
+    right: 0;
+    left: auto;
+    text-align: right;
+    background: linear-gradient(to right, transparent 0%, black 200%);
+  }
+
+  .container.gallery{
+    margin-top: 20px;
+  }
+  
+  .gallery {
+    display: inline-flex;
+    
+    flex-flow: row ;
+    gap: 30px;
+  }
+  
+  .item {
+    width: 250px;
+    height: 250px;
+    flex-shrink: 0;
+    transition: all 600ms ease-in-out;
+    opacity: 0.5;
+    
+    
+  }
+  
+  .current-item {
+    width: 260px;
+    height: 260px;
+    opacity: 1;
+   
+  }
+  
+ 
+  .gallery-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+   .gallery-wrapper {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+  }
+
+
+
+  .preco{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .descricao{ 
+    text-align: center;
+  }
+
+  .equipamentos{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 30px;
+    font-size: 25pt;
+    margin-top: 70px;
+   }
+
+   .objetivos{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 30px;
+    font-size: 25pt;
+    margin-top: 30px;
+   }
+
+   .row.fe{
+   gap: 130px;
+   }
+
+
+   .card.objetivo{
+    text-align: center;
+    margin-top: 25px;
+   }
+  
+
+   .comentario{
+    margin-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25pt;
+  
+   }
+  
+  
+
+
+
+
+
+
+   .card-img-top:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+
+   }
+
+
+   
+   .card-img-top{
+    height: 200px;
+   
+
+   }
+
+
+   .anuncio{
+   width: 1920px;
+   height: 150px;
+   margin-bottom: 20px;
+   margin-top: 60px;
+   }
+
+
+.row.cord{
+  margin-top: 60px;
+  align-items: center;
+  gap: 130px;
+  margin-bottom: 70px;
+
+
+}
+
+.container.grid{
+margin-left: 300px;
+
+}
+
+.container.gridd{
+  margin-top: 60px;
+margin-left: 330px;
+}
+
+
+.row.cordd{
+  gap: 130px;
+  align-items: center;
+}
+
+  .metaa{
+    width: 470px;
+  height: 450px;
+  border-radius: 40px;
+  margin-left: 30px;
+  
+  }
+
+
+.meta{
+width: 470px;
+height: 450px;
+border-radius: 40px;
+}
+
+
+
+.col-3.cordd{
+  margin-right: 50px;
+}
+
+   .col-1.c{
+   margin-left: 18px;
+   }
+
+   .col-0.d{
+    padding: 11px;
+   }
+
+   .suplemento{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 30px;
+    font-size: 25pt;
+    margin-top: 120px;
+   }
+
+  
+       .cardd{
+        border: solid 1px;
+        border-radius: 5px;
+       
+       }
+
+/*fim body*/
+
+
+  
+  /*footer*/
+  
+  .rodape{
+    background-color: rgb(0, 0, 0);
+    height: 200px;
+  width: 101%;
+    position: bottom;
+}
+
+.col-2.v{
+font-size: 120%;
+color: white;
+font-weight: 600;
+}
+
+.col-2.b{
+text-decoration:double;
+color:rgb(110, 110, 110);
+}
+img.v{
+padding: 3px 5px 0px 5px;
+width: 35px;
+}
+.dropdown-divider.c{
+   color: red;
+}
+#link{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+ .solid{
+  background-color: rgb(41, 41, 41);
+ }
+
+  
+
+
+
+
+ @media only screen and (max-width:550px){
+
+  *{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+
+.header{
+    background-color: rgb(20, 20, 20);
+    height: 150px;
+   
+  }
+  
+  
+    .logo{
+      width: 700px;
+      margin-top: 11%;
+      
+  }
+  
+  .col-4.nome{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(255, 244, 244);
+  font-size: 60pt;
+  left: 7%;
+  margin-top: 1%;
+  }
+  
+  
+  img.p{
+    margin-left: 0%;
+    padding: 0px 80px 15px 20px;
+    margin-top: 12%;
+  }
+  
+  
+  
+  
+  .pesquisar{
+    margin-top: -2%;
+  }
+  
+  
+  .menu{
+    background-color: rgb(0, 0, 0);
+   
+  }
+  
+  
+/*fim header*/
+
+  
+
+/*Body*/
+body {
+  font-family: Arial, sans-serif;
+  }
+  
+ 
+
+
+
+
+  .container.gallery {
+    position: relative;
+    padding: 15px;
+    max-width: 1100px;
+    margin: 0 auto;
+    z-index: 0;
+  }
+  
+  .gallery-wrapper {
+    overflow-x: auto;
+    
+  }
+  
+  .arrow-left,
+  .arrow-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 40px;
+    color: #fff;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.1;
+    cursor: pointer;
+    border: none;
+    z-index: 1;
+  }
+  
+  .arrow-left:hover,
+  .arrow-right:hover {
+    opacity: 1;
+  }
+  
+  .arrow-right {
+    right: 0;
+    left: auto;
+    text-align: right;
+    background: linear-gradient(to right, transparent 0%, black 200%);
+  }
+
+  .container.gallery{
+    margin-top: 20px;
+  }
+  
+  .gallery {
+    display: inline-flex;
+    
+    flex-flow: row ;
+    gap: 30px;
+  }
+  
+  .item {
+    width: 250px;
+    height: 250px;
+    flex-shrink: 0;
+    transition: all 600ms ease-in-out;
+    opacity: 0.5;
+    
+    
+  }
+  
+  .current-item {
+    width: 260px;
+    height: 260px;
+    opacity: 1;
+   
+  }
+  
+ 
+  .gallery-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+   .gallery-wrapper {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+  }
+
+
+
+  .preco{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 18pt;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .descricao{
+    text-align: center;
+  }
+
+  .equipamentos{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 30px;
+    font-size: 25pt;
+    margin-top: 70px;
+   }
+
+   .objetivos{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 30px;
+    font-size: 25pt;
+    margin-top: 30px;
+   }
+
+
+   .card.objetivo{
+    text-align: center;
+    margin-top: 25px;
+   }
+  
+
+   .comentario{
+    margin-top: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25pt;
+  
+   }
+  
+  
+
+
+
+
+
+
+   .card-img-top:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+
+   }
+
+
+   
+   .card-img-top{
+    height: 200px;
+   
+
+   }
+
+
+   .anuncio{
+   width: 1920px;
+   height: 150px;
+   margin-bottom: 20px;
+   margin-top: 60px;
+   }
+
+
+.row.cord{
+  margin-top: 60px;
+  margin-left: 20px;
+  align-items: center;
+  gap: 0px;
+  margin-bottom: 70px;
+  display: block;
+  
+
+}
+
+.row.cordd{
+  margin-top: 60px;
+  margin-right: 330px;
+  align-items: center;
+  gap: 80px;
+  display: block;
+
+}
+
+
+.meta{
+width: 470px;
+height: 450px;
+border-radius: 40px;
+
+
+}
+
+.metaa{
+  width: 470px;
+height: 450px;
+border-radius: 40px;
+margin-left: 90px;
+}
+
+.col-3.cordd{
+  margin-right: 50px;
+}
+
+   .col-1.c{
+   margin-left: 18px;
+   }
+
+   .col-0.d{
+    padding: 11px;
+   }
+
+   .suplemento{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 30px;
+    font-size: 25pt;
+    margin-top: 70px;
+   }
+
+  
+       .cardd{
+        border: solid 1px;
+        border-radius: 5px;
+       
+       }
+
+/*fim body*/
+
+
+  
+  /*footer*/
+  
+  .rodape{
+      background-color: rgb(0, 0, 0);
+      height: 200px;
+    width: 101%;
+      position: bottom;
+  }
+  
+  .col-2.v{
+  font-size: 120%;
+  color: white;
+  font-weight: 600;
+  }
+  
+  .col-2.b{
+  
+  color:rgb(110, 110, 110);
+  }
+  img.v{
+  padding: 3px 5px 0px 5px;
+  width: 35px;
+  }
+  .dropdown-divider.c{
+     color: red;
+  }
+  
+  body{
+    overflow-x: hidden;
+    max-width: 1900px;
+  }
+
+ .solid{
+  background-color: rgb(41, 41, 41);
+ }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

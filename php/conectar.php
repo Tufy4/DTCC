@@ -3,7 +3,7 @@
 $host = "localhost";
 $user = "root";
 $senha = "";
-$dbname = "iron";
+$dbname = "ib";
 	
 $conexao = @mysqli_connect($host, $user, $senha, $dbname) 
 or die ("Não foi possível conectar ao servidor MySQL");

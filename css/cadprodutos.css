@@ -1,3 +1,6 @@
+/*header*/
+
+
 *{
   margin: 0;
   padding: 0;
@@ -46,7 +49,7 @@
     .nav-item:hover{
       background-color: rgb(185, 1, 1);
       font-weight: 700;
-      color: white;
+      color: rgb(255, 244, 244);
     }
     .nav-item:active{
       background-color: red;
@@ -61,7 +64,15 @@
       border-radius: 100px;
     }
 
-#link{
+    .nav-link{
+  text-decoration: none;
+  color: inherit;
+}
+.nav-link:hover{
+  text-decoration: none;
+  color: inherit;
+}
+.nav-link:active{
   text-decoration: none;
   color: inherit;
 }
@@ -71,42 +82,55 @@
       background-color: rgb(0, 0, 0);
      
     }
-  
-  .espaço{
-      height: 100px;
-  }
-  .rodape{
-background-color: rgb(0, 0, 0);
-height: 200px;
-width: 101%;
-position: bottom;
-}
-
-.col-2.v{
-font-size: 120%;
-color: white;
-font-weight: 600;
-}
-
-.col-2.b{
-
-color:rgb(110, 110, 110);
-}
-img.v{
-padding: 3px 5px 0px 5px;
-width: 35px;
-}
-.dropdown-divider.c{
-color: red;
-position: relative;
-}
-
-.remenber{
-padding: 0px 40px;
+    .espaço{
+      height: 30px;
+    }
 
 
+
+
+.col-6{
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
-.register{
-padding: 0px 52px; 
+
+
+.input{
+  width: 100%;
 }
+
+
+
+
+
+      /*footer*/
+      .rodape{
+        background-color: rgb(0, 0, 0);
+        height: 200px;
+      width: 101%;
+        position: bottom;
+    }
+    
+    .col-2.v{
+    font-size: 120%;
+    color: white;
+    font-weight: 600;
+    }
+    
+    .col-2.b{
+    text-decoration:double;
+    color:rgb(110, 110, 110);
+    }
+    img.v{
+    padding: 3px 5px 0px 5px;
+    width: 35px;
+    }
+    .dropdown-divider.c{
+       color: red;
+    }
+    .link{
+        text-decoration: none;
+        color: inherit;
+    }
+    /*fim footer*/

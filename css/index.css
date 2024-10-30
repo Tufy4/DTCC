@@ -1,10 +1,15 @@
 /*header*/
+
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body{
+  background-color: #fff;
+}
 
 
  .row{
@@ -41,7 +46,20 @@
       padding: 0px 80px 15px 20px;
       margin-top: 12%;
     }
-    
+    .nav-item{
+      font-weight: 700;
+      color: white;
+    }
+    .nav-item:hover{
+      background-color: rgb(185, 1, 1);
+      font-weight: 700;
+      color: rgb(255, 244, 244);
+    }
+    .nav-item:active{
+      background-color: red;
+      font-weight: 700;
+      color: white;
+    }
     
     
     
@@ -50,28 +68,33 @@
       border-radius: 100px;
     }
 
-
+    .nav-link{
+  text-decoration: none;
+  color: inherit;
+}
+.nav-link:hover{
+  text-decoration: none;
+  color: inherit;
+}
+.nav-link:active{
+  text-decoration: none;
+  color: inherit;
+}
     
     
     .menu{
       background-color: rgb(0, 0, 0);
      
     }
-    
-    
-    
-    
-
-    body{
-      background-color: rgb(255, 0, 0);
-    }
-    
 
     .espaço{
-        height: 20px;
+      height: 30px;
     }
     
-    
+       
+    .beneficios{
+      background-color: #fff;
+    }
 
 
 /*fim header*/
@@ -80,17 +103,63 @@
 
 
 /*card*/
+
+.ui{
+  width: 100%;
+  height: 700px;
+}
+
+.jumbotron{
+  background-color: rgba(79, 34, 34, 0);
+  height: 50px;
+top: -165px;
+text-align: center;
+  position: absolute;
+  max-width: 550px;
+}
+
+.display-4{
+  font-family: 'Poppins', sans-serif;
+}
+
+.lead{
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.jumbotronn{
+  background-color: rgb(255, 255, 255);
+  height: 50px;
+top: -80px;
+text-align: center;
+max-width: 600px;
+  position: absolute;
+}
+
+
+
+
+
+
     .container.card{
-background-color: rgb(255, 0, 0);
-border: 3px solid white ;
-border-radius: 30px;
+background-color: rgb(255, 255, 255);
+border: 3px solid rgb(0, 0, 0) ;
+border-radius: 34px;
 padding: 0px 0px 0px 0px;
+position: relative;
+height: 300px;
+box-shadow: 10px 5px 15px rgb(121, 0, 0);
     }
 
       .imcard{
         width: 450px;
         height: 300px;
         border-radius: 30px;
+      }
+
+      .container.card:hover{
+        transform: scale(1.05);
+    transition: 0.5s ease-in-out;
       }
 
       .cardim{
@@ -101,75 +170,98 @@ padding: 0px 0px 0px 0px;
         
       }
 
+      
      
 
 /*fim card*/
 
 
 
-/*footer*/
-      .rodape{
-        background-color: rgb(0, 0, 0);
-      width: 101%;
-        position: bottom;
-        height: 200px;
-    }
-    
-    .col-2.v{
-    font-size: 120%;
-    color: white;
-    font-weight: 600;
-    }
-    
-    .col-2.b{
-    
-    color:rgb(110, 110, 110);
-    }
-    img.v{
-    padding: 3px 5px 0px 5px;
-    width: 35px;
-    }
-    .dropdown-divider.c{
-       color: red;
-    }
-    /*fim footer*/
 
+/*footer*/
+.rodape{
+  background-color: rgb(0, 0, 0);
+  height: 200px;
+width: 101%;
+  position: bottom;
+}
+
+.col-2.v{
+font-size: 120%;
+color: white;
+font-weight: 600;
+}
+
+.col-2.b{
+text-decoration:double;
+color:rgb(110, 110, 110);
+}
+img.v{
+padding: 3px 5px 0px 5px;
+width: 35px;
+}
+.dropdown-divider.c{
+ color: red;
+}
+.link{
+  text-decoration: none;
+  color: inherit;
+}
+    /*fim footer*/
+    .link{
+      text-decoration: none;
+      color: inherit;
+    }
     @media only screen and (max-width: 1400px){
 
       .row{
-       display: flex;
-       flex-direction: row;
-       align-items: center;
-      }
-     
-          .header{
-           background-color: rgb(20, 20, 20);
-         padding-bottom: 30px;
-           min-height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+       }
+      
+           .header{
+            background-color: rgb(20, 20, 20);
+          padding-bottom: 30px;
+            min-height: auto;
+           
+          }
           
-         }
-         
-         
-           .logo{
-             width: 500px;
-             margin-top: 6%;
-             
-         }
-         
-         .col-4.nome{
-         font-family: Georgia, 'Times New Roman', Times, serif;
-         color: rgb(255, 244, 244);
-         font-size: 60pt;
-         left: 7%;
-         margin-top: 1%;
-         }
-         
-         
-         img.p1{
-           margin-left: 0%;
-           padding: 0px 80px 15px 20px;
-           margin-top: 12%;
-         }
+          
+            .logo{
+              width: 500px;
+              margin-top: 6%;
+              
+          }
+          
+          .col-4.nome{
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          color: rgb(255, 244, 244);
+          font-size: 60pt;
+          left: 7%;
+          margin-top: 1%;
+          }
+          
+          
+          img.p1{
+            margin-left: 0%;
+            padding: 0px 80px 15px 20px;
+            margin-top: 12%;
+          }
+          .nav-item{
+            font-weight: 700;
+            color: white;
+          }
+          .nav-item:hover{
+            background-color: rgb(185, 1, 1);
+            font-weight: 700;
+            color: rgb(255, 244, 244);
+          }
+          .nav-item:active{
+            background-color: red;
+            font-weight: 700;
+            color: white;
+          }
          
          
          
@@ -192,7 +284,7 @@ padding: 0px 0px 0px 0px;
          
      
          body{
-           background-color: rgb(255, 0, 0);
+          background-color: #fff;
          }
          
      
@@ -200,6 +292,10 @@ padding: 0px 0px 0px 0px;
              height: 20px;
          }
          
+            
+    .beneficios{
+      background-color: #fff;
+    }
          
      
          .performance{
@@ -208,10 +304,12 @@ padding: 0px 0px 0px 0px;
      
      
          .container.card{
-     background-color: rgb(255, 0, 0);
-     border: 3px solid white ;
+          background-color: rgb(255, 255, 255);
+          border: 3px solid rgb(0, 0, 0) ;
+          box-shadow: 10px 5px 15px rgb(121, 0, 0);
      border-radius: 30px;
      padding: 0px 0px 0px 0px;
+    
          }
      
            .imcard{
@@ -264,41 +362,55 @@ padding: 0px 0px 0px 0px;
 
 
     @media only screen and (max-width: 1200px){
-
-    .row{
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-    }
-   
-        .header{
-         background-color: rgb(20, 20, 20);
-       padding-bottom: 30px;
-         min-height: auto;
-        
+      .row{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
        }
-       
-       
-         .logo{
-           width: 500px;
-           margin-top: 6%;
+      
+           .header{
+            background-color: rgb(20, 20, 20);
+          padding-bottom: 30px;
+            min-height: auto;
            
-       }
-       
-       .col-4.nome{
-       font-family: Georgia, 'Times New Roman', Times, serif;
-       color: rgb(255, 244, 244);
-       font-size: 60pt;
-       left: 7%;
-       margin-top: 1%;
-       }
-       
-       
-       img.p1{
-         margin-left: 0%;
-         padding: 0px 80px 15px 20px;
-         margin-top: 12%;
-       }
+          }
+          
+          
+            .logo{
+              width: 500px;
+              margin-top: 6%;
+              
+          }
+          
+          .col-4.nome{
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          color: rgb(255, 244, 244);
+          color: rgb(255, 0, 0);
+          font-size: 60pt;
+          left: 7%;
+          margin-top: 1%;
+          }
+          
+          
+          img.p1{
+            margin-left: 0%;
+            padding: 0px 80px 15px 20px;
+            margin-top: 12%;
+          }
+          .nav-item{
+            font-weight: 700;
+            color: white;
+          }
+          .nav-item:hover{
+            background-color: rgb(185, 1, 1);
+            font-weight: 700;
+            color: rgb(255, 244, 244);
+          }
+          .nav-item:active{
+            background-color: red;
+            font-weight: 700;
+            color: white;
+          }
        
        
        
@@ -321,7 +433,7 @@ padding: 0px 0px 0px 0px;
        
    
        body{
-         background-color: rgb(255, 0, 0);
+         background-color: #fff;
        }
        
    
@@ -329,7 +441,10 @@ padding: 0px 0px 0px 0px;
            height: 20px;
        }
        
-       
+          
+    .beneficios{
+      background-color: #fff;
+    }
    
        .performance{
          width: 1200px;
@@ -337,8 +452,9 @@ padding: 0px 0px 0px 0px;
    
    
        .container.card{
-   background-color: rgb(255, 0, 0);
-   border: 3px solid white ;
+        background-color: rgb(255, 255, 255);
+        border: 3px solid rgb(0, 0, 0) ;
+        box-shadow: 10px 5px 15px rgb(121, 0, 0);
    border-radius: 30px;
    padding: 0px 0px 0px 0px;
        }
@@ -443,11 +559,11 @@ padding: 0px 0px 0px 0px;
     
     
     .beneficios{
-    background-color: rgb(255, 0, 0);
+      background-color: #fff;
     }
 
     body{
-      background-color: rgb(255, 0, 0);
+      background-color: #fff;
       overflow-x: hidden;
     }
     
@@ -472,8 +588,9 @@ padding: 0px 0px 0px 0px;
 
 
     .container.card{
-background-color: rgb(255, 0, 0);
-border: 3px solid white ;
+      background-color: rgb(255, 255, 255);
+      border: 3px solid rgb(0, 0, 0) ;
+      box-shadow: 10px 5px 15px rgb(121, 0, 0);
 border-radius: 30px;
 padding: 0px 0px 0px 0px;
     }
@@ -583,12 +700,12 @@ padding: 0px 0px 0px 0px;
    
    
    .beneficios{
-   background-color: rgb(255, 0, 0);
-   width: 300px;
-   }
+    background-color: #fff;
+    width: 300px;
+  }
 
    body{
-     background-color: rgb(255, 0, 0);
+     background-color: #fff;
    }
    
 
@@ -612,8 +729,9 @@ padding: 0px 0px 0px 0px;
 
 
    .container.card{
-background-color: rgb(255, 0, 0);
-border: 3px solid white ;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0) ;
+    box-shadow: 10px 5px 15px rgb(121, 0, 0);
 border-radius: 30px;
 padding: 0px 0px 0px 0px;
    }
